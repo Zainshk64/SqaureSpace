@@ -18,7 +18,7 @@ async function initLocalDirectory() {
   if (!containers.length) return;
 
   // TODO: Replace this URL with the actual URL where you host companies.json
-  const DATA_URL = "https://zainshk64.github.io/path/to/companies.json";
+  const DATA_URL = "https://github.com/Zainshk64/SqaureSpace/companies.json";
 
   let companies;
   try {
