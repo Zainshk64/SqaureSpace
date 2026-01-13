@@ -93,7 +93,7 @@ function renderDirectory(container, companies) {
     html += `
       <article class="local-directory-item">
         <h3 class="local-directory-name">
-          <a href="${c.url}" rel="noopener noreferrer">
+          <a href="${c.url}" rel="noopener noreferrer" target="_blank">
             ${c.name}
           </a>
         </h3>
